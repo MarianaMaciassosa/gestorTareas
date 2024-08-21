@@ -1,6 +1,6 @@
 import { renderTasks } from "./ui";
 import { addTask, deleteTask, updateTask } from "./task"; 
- 
+import confetti from "canvas-confetti";
 document.addEventListener("DOMContentLoaded", () => {
     //Hacemos visible la lista de tareas
     renderTasks();
@@ -33,6 +33,15 @@ if(e.target.classList.contains("toggle")){
   const taskId = e.target.parentElement.getAttribute("data-id");
   updateTask(taskId);
   renderTasks();
+
+
+  if(e.target.innerText =="Completar"){
+    confetti({
+   particleCount:100,
+   spread:70,
+   origin:{y: 0.6}   
+    })
+  }
 }
 });
 });

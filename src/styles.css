@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Danfo&family=Ed');
+
 /**Estilos generales */
 body{
-    font-family: Arial,sans-serif;
+    font-family: "Edu VIC WA NT Beginner", cursive;;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
@@ -11,10 +13,13 @@ body{
 }
 /*Estilos para el contenedor principal*/
 #app {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 500px;
+    background-color: rgb(204, 166, 166);
+    padding: 30px;
+    border: 5px solid rgb(84, 84, 84);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.175);
+    
 }
 /*Estilos para el formulario */
 form{
@@ -27,13 +32,13 @@ input{
     width: 75%;
     padding: 8px;
     margin-right: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #92ccea;
     border-radius: 3px;
 }
 /*Estilos al boton*/
 button{
     padding: 5px 8px;
-    background-color: #007bff;
+    background-color: #758c7f;
     color: white;
     border: none;
     border-radius: 3px;
@@ -59,4 +64,17 @@ li{
 li.completed{
     text-decoration: line-through;
     color: #888;
+}
+body{
+    background-image: url(./imagenes/organizador.jpg);
+}
+
+title{
+    background-color: #888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+color:#758c7f
 }

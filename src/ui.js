@@ -22,4 +22,5 @@ export const renderTasks = () => {
 
         taskList.appendChild(li);
     });
-};  
+};
+
