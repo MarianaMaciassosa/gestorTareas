@@ -3,7 +3,7 @@
 /**Estilos generales */
 body{
     font-family: "Edu VIC WA NT Beginner", cursive;;
-    background-color: #f4f4f4;
+    background-color: #e4e4e4f4;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -14,7 +14,7 @@ body{
 /*Estilos para el contenedor principal*/
 #app {
     width: 500px;
-    background-color: rgb(204, 166, 166);
+    background-color: rgb(196, 164, 164);
     padding: 30px;
     border: 5px solid rgb(84, 84, 84);
     border-radius: 10px;
@@ -29,6 +29,8 @@ form{
 }
 /* Estilos al input*/
 input{
+    background-color: #e4e4e4f4;
+    color: black;
     width: 75%;
     padding: 8px;
     margin-right: 10px;
@@ -39,7 +41,7 @@ input{
 button{
     padding: 5px 8px;
     background-color: #758c7f;
-    color: white;
+    color: rgb(28, 27, 27);
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -51,7 +53,7 @@ ul{
 }
 /*Estilos para el elemento de la lista */
 li{
-    background-color: #f4f4f4f4;
+    background-color: #e4e4e4f4;
     padding: 10px;
     border: 1px solid #ddd;
     margin-top: 10px;
@@ -69,12 +71,6 @@ body{
     background-image: url(./imagenes/organizador.jpg);
 }
 
-title{
-    background-color: #888;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 h1{
 color:#758c7f
 }
